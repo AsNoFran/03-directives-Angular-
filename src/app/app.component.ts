@@ -8,4 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Bonjour !';
   isAdmin: boolean = true;
+
+  // function for "The Admin Button"
+
+  isAdminCommand() {
+    this.isAdmin = !this.isAdmin;
+  }
 }
